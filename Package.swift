@@ -41,9 +41,6 @@ targets.append(
         name: "SwiftJS",
         dependencies: [
             "CJSCore",
-        ],
-        cSettings: [
-            .unsafeFlags(["-I/usr/include/webkitgtk-4.0"]),
         ]
     )
 )
